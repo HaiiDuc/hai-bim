@@ -5,7 +5,7 @@ const Navbar = ({ todos }) => {
     const length = todos.length
     return (
         <div className="navbar">
-            <h2>Redux app</h2>
+            <h2 className="">Redux app</h2>
             <ul>
                 <li>Home</li>
                 <li>About</li>
